@@ -1,0 +1,8 @@
+utils\Constants.class
+utils\Reporting.class
+pageObjects\LoginPage.class
+pageObjects\BaseClass.class
+pageObjects\AddCustomerPage.class
+utils\FrameworkProperties.class
+utils\CommonFunctions.class
+utils\ExcelUtility.class
