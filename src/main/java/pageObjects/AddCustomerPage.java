@@ -98,5 +98,24 @@ public class AddCustomerPage {
 		
 	}
 	
+	
+	public static String checkForMandatoryFieldError(String inputName) {
+		String msg = null;
+		if (inputName == "PostCode") {
+		
+		msg = enterPCode.getAttribute("validationMessage");
+		
+		} else if (inputName == "LastName") {
+			msg = enterLName.getAttribute("validationMessage");
+		}
+		
+		
+		return msg;
+	
+
+		
+		
+	}
+	
 
 }

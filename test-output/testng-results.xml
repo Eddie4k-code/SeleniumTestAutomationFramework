@@ -1,81 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-16T15:23:43 EST" name="LoginSuite" finished-at="2023-02-16T15:23:46 EST" duration-ms="2759">
+  <suite started-at="2023-02-17T15:46:25 EST" name="AddCustomer" finished-at="2023-02-17T15:46:28 EST" duration-ms="3681">
     <groups>
     </groups>
-    <test started-at="2023-02-16T15:23:43 EST" name="LoginTest" finished-at="2023-02-16T15:23:46 EST" duration-ms="2759">
-      <class name="testScripts.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.LoginTest@55b7a4e0]" started-at="2023-02-16T15:23:43 EST" name="setup" finished-at="2023-02-16T15:23:44 EST" duration-ms="839" status="PASS">
+    <test started-at="2023-02-17T15:46:25 EST" name="AddCustomer" finished-at="2023-02-17T15:46:28 EST" duration-ms="3681">
+      <class name="testScripts.AddCustomer">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.AddCustomer@5f058f00]" started-at="2023-02-17T15:46:25 EST" name="setup" finished-at="2023-02-17T15:46:26 EST" duration-ms="862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initalizePages()[pri:0, instance:testScripts.LoginTest@55b7a4e0]" started-at="2023-02-16T15:23:45 EST" name="initalizePages" finished-at="2023-02-16T15:23:45 EST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="initalizePages()[pri:0, instance:testScripts.AddCustomer@5f058f00]" started-at="2023-02-17T15:46:26 EST" name="initalizePages" finished-at="2023-02-17T15:46:26 EST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalizePages -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@55b7a4e0]" started-at="2023-02-16T15:23:45 EST" name="loginTest" data-provider="LoginTestData" finished-at="2023-02-16T15:23:46 EST" duration-ms="1268" status="PASS">
+        <test-method signature="addCustomerTest(java.util.Map)[pri:0, instance:testScripts.AddCustomer@5f058f00]" started-at="2023-02-17T15:46:26 EST" name="addCustomerTest" data-provider="addCustomerTestData" finished-at="2023-02-17T15:46:28 EST" duration-ms="1387" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[LoginTest1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Harry Potter]]>
+                <![CDATA[{TestName=AddCustomerError1, Desc=Mandatory Field Error PostCode pops up, Execute=Yes, FirstName=Tim, LastName=Bob, PostCode=, nullValue=PostCode}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initalizePages()[pri:0, instance:testScripts.LoginTest@55b7a4e0]" started-at="2023-02-16T15:23:46 EST" name="initalizePages" finished-at="2023-02-16T15:23:46 EST" duration-ms="0" status="PASS">
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="initalizePages()[pri:0, instance:testScripts.AddCustomer@5f058f00]" started-at="2023-02-17T15:46:28 EST" name="initalizePages" finished-at="2023-02-17T15:46:28 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalizePages -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@55b7a4e0]" started-at="2023-02-16T15:23:46 EST" name="loginTest" data-provider="LoginTestData" finished-at="2023-02-16T15:23:46 EST" duration-ms="56" status="PASS">
+        <test-method signature="addCustomerTest(java.util.Map)[pri:0, instance:testScripts.AddCustomer@5f058f00]" started-at="2023-02-17T15:46:28 EST" name="addCustomerTest" data-provider="addCustomerTestData" finished-at="2023-02-17T15:46:28 EST" duration-ms="336" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[LoginTest2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[N/A]]>
+                <![CDATA[{TestName=AddCustomerError2, Desc=Mandatory Field Error LastName pops up, Execute=Yes, FirstName=John, LastName=, PostCode=1011, nullValue=LastName}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.LoginTest@55b7a4e0]" started-at="2023-02-16T15:23:46 EST" name="tearDown" finished-at="2023-02-16T15:23:46 EST" duration-ms="85" status="PASS">
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="initalizePages()[pri:0, instance:testScripts.AddCustomer@5f058f00]" started-at="2023-02-17T15:46:28 EST" name="initalizePages" finished-at="2023-02-17T15:46:28 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizePages -->
+        <test-method signature="addCustomerTest(java.util.Map)[pri:0, instance:testScripts.AddCustomer@5f058f00]" started-at="2023-02-17T15:46:28 EST" name="addCustomerTest" data-provider="addCustomerTestData" finished-at="2023-02-17T15:46:28 EST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=AddCustomerError3, Desc=Mandatory Field Error FirstName pops up, Execute=Yes, FirstName=, LastName=Gary, PostCode=1011, nullValue=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.AddCustomer@5f058f00]" started-at="2023-02-17T15:46:29 EST" name="tearDown" finished-at="2023-02-17T15:46:29 EST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testScripts.LoginTest -->
-    </test> <!-- LoginTest -->
-  </suite> <!-- LoginSuite -->
+      </class> <!-- testScripts.AddCustomer -->
+    </test> <!-- AddCustomer -->
+  </suite> <!-- AddCustomer -->
 </testng-results>

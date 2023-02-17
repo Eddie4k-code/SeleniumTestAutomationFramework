@@ -1,0 +1,173 @@
+INFO  - 2023-02-16 20:26:35.284; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-16 20:26:35.660; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-16 20:26:35.838; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-16 20:26:36.027; testScripts.AddCustomer; Entered First Name Tim
+INFO  - 2023-02-16 20:26:36.092; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-16 20:26:36.159; testScripts.AddCustomer; Entered Postal Code 
+INFO  - 2023-02-16 20:26:36.220; testScripts.AddCustomer; Post code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-16 20:26:36.237; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-16 20:26:36.259; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-16 20:26:36.304; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-16 20:26:36.347; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-16 20:26:36.408; testScripts.AddCustomer; Entered First Name John
+INFO  - 2023-02-16 20:26:36.458; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-16 20:26:36.511; testScripts.AddCustomer; Entered Postal Code 1011
+INFO  - 2023-02-16 20:26:36.558; testScripts.AddCustomer; LastName code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-16 20:26:36.570; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-16 20:27:23.395; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-16 20:27:23.661; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-16 20:27:23.826; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-16 20:27:24.014; testScripts.AddCustomer; Entered First Name Tim
+INFO  - 2023-02-16 20:27:24.082; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-16 20:27:24.143; testScripts.AddCustomer; Entered Postal Code 
+INFO  - 2023-02-16 20:27:24.212; testScripts.AddCustomer; Post code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-16 20:27:24.226; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-16 20:27:24.244; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-16 20:27:24.291; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-16 20:27:24.333; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-16 20:27:24.399; testScripts.AddCustomer; Entered First Name John
+INFO  - 2023-02-16 20:27:24.455; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-16 20:27:24.514; testScripts.AddCustomer; Entered Postal Code 1011
+INFO  - 2023-02-16 20:27:24.564; testScripts.AddCustomer; LastName code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-16 20:27:24.577; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-16 20:27:24.578; testScripts.AddCustomer; [Ljava.lang.StackTraceElement;@b8e246c
+INFO  - 2023-02-16 20:28:35.127; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-16 20:28:35.389; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-16 20:28:35.563; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-16 20:28:35.752; testScripts.AddCustomer; Entered First Name Tim
+INFO  - 2023-02-16 20:28:35.836; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-16 20:28:35.914; testScripts.AddCustomer; Entered Postal Code 
+INFO  - 2023-02-16 20:28:35.985; testScripts.AddCustomer; Post code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-16 20:28:35.999; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-16 20:28:36.018; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-16 20:28:36.068; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-16 20:28:36.112; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-16 20:28:36.173; testScripts.AddCustomer; Entered First Name John
+INFO  - 2023-02-16 20:28:36.226; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-16 20:28:36.281; testScripts.AddCustomer; Entered Postal Code 1011
+INFO  - 2023-02-16 20:28:36.329; testScripts.AddCustomer; LastName code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-16 20:28:36.342; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-16 20:30:09.789; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-16 20:30:10.095; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-16 20:30:10.272; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-16 20:30:10.462; testScripts.AddCustomer; Entered First Name Tim
+INFO  - 2023-02-16 20:30:10.526; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-16 20:30:10.589; testScripts.AddCustomer; Entered Postal Code 
+INFO  - 2023-02-16 20:30:10.657; testScripts.AddCustomer; Post code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-16 20:30:10.673; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-16 20:30:10.691; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-16 20:30:10.738; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-16 20:30:10.781; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-16 20:30:10.840; testScripts.AddCustomer; Entered First Name John
+INFO  - 2023-02-16 20:30:10.895; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-16 20:30:10.949; testScripts.AddCustomer; Entered Postal Code 1011
+INFO  - 2023-02-16 20:30:11.001; testScripts.AddCustomer; LastName code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-16 20:30:11.013; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-16 20:30:44.630; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-16 20:30:45.017; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-16 20:30:45.186; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-16 20:30:45.377; testScripts.AddCustomer; Entered First Name Tim
+INFO  - 2023-02-16 20:30:45.439; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-16 20:30:45.502; testScripts.AddCustomer; Entered Postal Code 
+INFO  - 2023-02-16 20:30:45.570; testScripts.AddCustomer; Post code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-16 20:30:45.583; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-16 20:30:45.601; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-16 20:30:45.650; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-16 20:30:45.701; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-16 20:30:45.763; testScripts.AddCustomer; Entered First Name John
+INFO  - 2023-02-16 20:30:45.817; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-16 20:30:45.877; testScripts.AddCustomer; Entered Postal Code 1011
+INFO  - 2023-02-16 20:30:45.928; testScripts.AddCustomer; LastName code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-16 20:30:45.941; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-16 20:30:45.942; testScripts.AddCustomer; expected [Please fill out this field...] but found [Please fill out this field.]
+INFO  - 2023-02-16 20:31:32.172; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-16 20:31:32.484; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-16 20:31:32.647; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-16 20:31:32.842; testScripts.AddCustomer; Entered First Name Tim
+INFO  - 2023-02-16 20:31:32.906; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-16 20:31:32.968; testScripts.AddCustomer; Entered Postal Code 
+INFO  - 2023-02-16 20:31:33.033; testScripts.AddCustomer; Post code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-16 20:31:33.048; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-16 20:31:33.067; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-16 20:31:33.121; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-16 20:31:33.169; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-16 20:31:33.231; testScripts.AddCustomer; Entered First Name John
+INFO  - 2023-02-16 20:31:33.288; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-16 20:31:33.348; testScripts.AddCustomer; Entered Postal Code 1011
+INFO  - 2023-02-16 20:31:33.396; testScripts.AddCustomer; LastName code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-16 20:31:33.408; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-16 20:31:33.409; testScripts.AddCustomer; expected [Please fill out this field...] but found [Please fill out this field.]
+INFO  - 2023-02-17 15:41:51.899; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-17 15:41:52.156; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-17 15:41:52.328; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-17 15:41:52.517; testScripts.AddCustomer; Entered First Name Tim
+INFO  - 2023-02-17 15:41:52.597; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-17 15:41:52.665; testScripts.AddCustomer; Entered Postal Code 
+INFO  - 2023-02-17 15:41:52.739; testScripts.AddCustomer; Post code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-17 15:41:52.753; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-17 15:41:52.769; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-17 15:41:52.816; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-17 15:41:52.859; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-17 15:41:52.920; testScripts.AddCustomer; Entered First Name John
+INFO  - 2023-02-17 15:41:52.971; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-17 15:41:53.023; testScripts.AddCustomer; Entered Postal Code 1011
+INFO  - 2023-02-17 15:41:53.074; testScripts.AddCustomer; LastName code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-17 15:41:53.086; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-17 15:41:53.098; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-17 15:41:53.146; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-17 15:41:53.188; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-17 15:41:53.240; testScripts.AddCustomer; Entered First Name 
+INFO  - 2023-02-17 15:41:53.298; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-17 15:41:53.356; testScripts.AddCustomer; Entered Postal Code 1011
+INFO  - 2023-02-17 15:44:07.804; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-17 15:44:08.057; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-17 15:44:08.221; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-17 15:44:08.405; testScripts.AddCustomer; Entered First Name Tim
+INFO  - 2023-02-17 15:44:08.473; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-17 15:44:08.537; testScripts.AddCustomer; Entered Postal Code 
+INFO  - 2023-02-17 15:44:08.604; testScripts.AddCustomer; Post code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-17 15:44:08.618; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-17 15:44:08.638; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-17 15:44:08.684; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-17 15:44:08.730; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-17 15:44:08.791; testScripts.AddCustomer; Entered First Name John
+INFO  - 2023-02-17 15:44:08.847; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-17 15:44:08.905; testScripts.AddCustomer; Entered Postal Code 1011
+INFO  - 2023-02-17 15:44:08.953; testScripts.AddCustomer; LastName code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-17 15:44:08.965; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-17 15:44:08.975; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-17 15:44:09.024; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-17 15:44:09.067; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-17 15:44:09.116; testScripts.AddCustomer; Entered First Name 
+INFO  - 2023-02-17 15:44:09.172; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-17 15:44:09.226; testScripts.AddCustomer; Entered Postal Code 1011
+INFO  - 2023-02-17 15:45:46.177; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-17 15:45:46.432; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-17 15:45:46.612; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-17 15:45:46.798; testScripts.AddCustomer; Entered First Name Tim
+INFO  - 2023-02-17 15:45:46.861; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-17 15:45:46.924; testScripts.AddCustomer; Entered Postal Code 
+INFO  - 2023-02-17 15:45:46.994; testScripts.AddCustomer; Post code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-17 15:45:47.008; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-17 15:46:27.432; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-17 15:46:27.680; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-17 15:46:27.854; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-17 15:46:28.043; testScripts.AddCustomer; Entered First Name Tim
+INFO  - 2023-02-17 15:46:28.110; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-17 15:46:28.173; testScripts.AddCustomer; Entered Postal Code 
+INFO  - 2023-02-17 15:46:28.235; testScripts.AddCustomer; Post code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-17 15:46:28.247; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-17 15:46:28.272; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-17 15:46:28.318; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-17 15:46:28.361; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-17 15:46:28.428; testScripts.AddCustomer; Entered First Name John
+INFO  - 2023-02-17 15:46:28.479; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-17 15:46:28.534; testScripts.AddCustomer; Entered Postal Code 1011
+INFO  - 2023-02-17 15:46:28.581; testScripts.AddCustomer; LastName code is null value, checking for mandatory field pop up.
+INFO  - 2023-02-17 15:46:28.594; testScripts.AddCustomer; Please fill out this field.
+INFO  - 2023-02-17 15:46:28.606; testScripts.AddCustomer; Starting AddCustomer
+INFO  - 2023-02-17 15:46:28.654; testScripts.AddCustomer; Logged in as manager
+INFO  - 2023-02-17 15:46:28.698; testScripts.AddCustomer; Clicked Add Customer
+INFO  - 2023-02-17 15:46:28.749; testScripts.AddCustomer; Entered First Name 
+INFO  - 2023-02-17 15:46:28.806; testScripts.AddCustomer; Entered Last Name null
+INFO  - 2023-02-17 15:46:28.859; testScripts.AddCustomer; Entered Postal Code 1011

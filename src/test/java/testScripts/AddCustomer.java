@@ -27,19 +27,66 @@ public class AddCustomer extends BaseClass {
 		driver.get(Constants.BASEURL);
 		logger.info("Starting " + getClass().getSimpleName());
 		pageObjects.LoginPage.managerLogin();
+		logger.info("Logged in as manager");
 		pageObjects.AddCustomerPage.clickAddCustomer();
+		logger.info("Clicked Add Customer");
 		pageObjects.AddCustomerPage.enterFirstName(testData.get("FirstName"));
+		logger.info("Entered First Name " + testData.get("FirstName"));
 		pageObjects.AddCustomerPage.enterLastName(testData.get("LastName"));
+		logger.info("Entered Last Name " + testData.get("lastName"));
 		pageObjects.AddCustomerPage.enterPostCode(testData.get("PostCode"));
+		logger.info("Entered Postal Code " + testData.get("PostCode"));
 		pageObjects.AddCustomerPage.clickAddCustomerSubmit();
-		pageObjects.AddCustomerPage.switchToAlert();
 		
-		//Check if customer is added
-		pageObjects.AddCustomerPage.clickCustomers();
-		boolean res = pageObjects.AddCustomerPage.checkCustomerAdded(testData.get("FirstName"));
+		//If there is a null value in testData then we must check that mandatory fields pop up shows.
 		
-		Assert.assertEquals(res, true);
+		if (testData.get("nullValue").equals("PostCode")) {
+			
+			logger.info("Post code is null value, checking for mandatory field pop up.");
+			
+			String s = pageObjects.AddCustomerPage.checkForMandatoryFieldError("PostCode");
+			logger.info(s);
+			
+			Assert.assertEquals(s, "Please fill out this field.");
+		} else if (testData.get("nullValue").equals("FirstName")) {
+			logger.info("FirstName code is null value, checking for mandatory field pop up.");
+			String s = pageObjects.AddCustomerPage.checkForMandatoryFieldError("FirstName");
+			logger.info(s);
+			
+			Assert.assertEquals(s, "Please fill out this field.");
+		} else if (testData.get("nullValue").equals("LastName")) {
+			logger.info("LastName code is null value, checking for mandatory field pop up.");
+			String s = pageObjects.AddCustomerPage.checkForMandatoryFieldError("LastName");
+			logger.info(s);
+			
+			try {
+			
+			Assert.assertEquals(s, "Please fill out this field.");
+			} catch(AssertionError e) {
+				logger.info(e.getMessage());
+				Assert.fail();
+			}
+		}
 		
+		
+		
+			
+			
+			
+		//If there is not a null value then proceed as normal
+		if(testData.get("nullValue").contains("No")) {
+			logger.info("CLicked Add Customer Submit Button");
+			pageObjects.AddCustomerPage.switchToAlert();
+			logger.info("Alert Appeared, Pressed OK");
+			//Check if customer is added
+			pageObjects.AddCustomerPage.clickCustomers();
+			logger.info("Checking if customer was added");
+			boolean res = pageObjects.AddCustomerPage.checkCustomerAdded(testData.get("FirstName"));
+			
+			Assert.assertEquals(res, true);
+		} 
+	
+	
 	}
 	
 	
@@ -68,36 +115,18 @@ public class AddCustomer extends BaseClass {
 				subtractRows ++;
 			}
 		}
-		
-		
 		for (int row = 1; row < rows; row++) {
-			
 			if (ExcelUtility.getCellData(Constants.customerTestDataPath, Constants.addCustomerSheetName, row, 1).toLowerCase().contains("no")) {
 				continue;
 			}
-			
 			Map<String, String> testData = new HashMap<String, String>();
 			int keyCounter = 0;
-			for (int col = 0; col < colCount; col++) {
-				
+			for (int col = 0; col < colCount; col++) {	
 				testData.put(keys[keyCounter], ExcelUtility.getCellData(Constants.customerTestDataPath, Constants.addCustomerSheetName, row, col)); 
 				keyCounter ++;
 			}
-			
-			list.add(new Object[] {testData});
-			
-			
-			
+			list.add(new Object[] {testData});	
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		return list.iterator();
 		
 	}
