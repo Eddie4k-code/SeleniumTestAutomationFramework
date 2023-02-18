@@ -16,6 +16,6 @@ There are two tests added to this framework:
 <h3>testScripts</h3> - Contains all test scripts for the banking application.
 <h3>testData</h3> - Contains csv files that are used for test data when a test is active.
 <h3>Reports</h3> - Contains all html generated reports
-<h3>Screenshots</h3> When a test fails a screenshot will be saved here showing the last step it was on.
-<h3>Log</h3> Contains logs from test runtime.
+<h3>Screenshots</h3> - When a test fails a screenshot will be saved here showing the last step it was on.
+<h3>Log</h3> - Contains logs from test runtime.
 
