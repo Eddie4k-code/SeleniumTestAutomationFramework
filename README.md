@@ -5,6 +5,7 @@ https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer
 <h1>Description</h1>
 There are two tests added to this framework,
 1.Login Test - Tests logging in as a regular user and manager.
+</br>
 2.AddCustomer Test - Adds a customer to the banking application
 
 <h1>Directory</h1>
