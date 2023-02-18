@@ -3,7 +3,8 @@ A Data Driven Java-based Selenium Automation Testing Framework for a demo bankin
 https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer
 
 <h1>Description</h1>
-There are two tests added to this framework,
+There are two tests added to this framework:
+<br></br>
 1.Login Test - Tests logging in as a regular user and manager.
 <br></br>
 2.AddCustomer Test - Adds a customer to the banking application
