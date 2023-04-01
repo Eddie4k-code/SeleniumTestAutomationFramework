@@ -1,8 +1,8 @@
 package testScripts;
 
 import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
-import static org.testng.Assert.assertEquals;
+
+
 
 import java.io.IOException;
 import java.util.ArrayList;

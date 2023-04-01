@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.AddCustomer">
+      <class name="testScripts.OpenAccount">
         <methods>
           <include name="setup"/>
-          <include name="addCustomerTest" invocation-numbers="1"/>
+          <include name="OpenAccountTest"/>
           <include name="tearDown"/>
           <include name="initalizePages"/>
         </methods>
-      </class> <!-- testScripts.AddCustomer -->
+      </class> <!-- testScripts.OpenAccount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

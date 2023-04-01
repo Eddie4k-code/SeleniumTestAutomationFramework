@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
@@ -19,6 +20,9 @@ public class OpenAccountPage {
 	
 	@FindBy(xpath="/html/body/div[1]/div/div[2]/div/div[2]/div/div/form/button")
 	private static WebElement processBtn;
+	
+	@FindBy(xpath="/html/body/div[1]/div/div[2]/div/div[1]/button[2]")
+	private static WebElement clickOpenAccount;
  
 	
 	public static void selectCustomerName(String name) {
@@ -47,6 +51,23 @@ public class OpenAccountPage {
 		//Clicks Process Button
 		CommonFunctions.waitForElementToAppear(processBtn, "Process Button");
 		processBtn.click();
+	}
+	
+	public static void clickOpenAccountBtn() {
+		//Clicks Open Account
+		
+		CommonFunctions.waitForElementToAppear(clickOpenAccount, "Open Account Button");
+		clickOpenAccount.click();
+		
+	}
+	
+	
+	public static Boolean checkConfirmationAlert(Alert alert) {
+		String alertText = alert.getText();
+		
+		Boolean confirmText = alertText.contains("Account created successfully with account Number");
+		
+		return confirmText;
 	}
 	
 	

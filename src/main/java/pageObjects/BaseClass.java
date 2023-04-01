@@ -27,6 +27,7 @@ public class BaseClass {
 	public void initalizePages() {
 		PageFactory.initElements(driver, pageObjects.LoginPage.class);
 		PageFactory.initElements(driver, AddCustomerPage.class);
+		PageFactory.initElements(driver, OpenAccountPage.class);
 	}
 	
 	@BeforeClass
